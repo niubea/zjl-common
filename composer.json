@@ -1,0 +1,33 @@
+{
+  "type": "library",
+  "name": "czt/zjl-common",
+  "homepage": "https://github.com/niubea/zjl-common",
+  "description": "WeChat platform and WeChat payment development tools",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Libo",
+      "email": "libo@usa.com",
+      "homepage": "http://www.niubea.com"
+    }
+  ],
+  "keywords": [
+    "WePay",
+    "AliPay",
+    "WeMini",
+    "WeChat",
+    "WeChatPay",
+    "WeChatDeveloper"
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "WechatMsg\\": "WechatMsg"
+    }
+  }
+}
